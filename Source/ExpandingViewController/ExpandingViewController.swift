@@ -86,7 +86,7 @@ extension ExpandingViewController {
         let layout = PageCollectionLayout(itemSize: itemSize)
         collectionView = PageCollectionView.createOnView(view,
                                                          layout: layout,
-                                                         height: itemSize.height,
+                                                         height: UIScreen.main.bounds.height/*itemSize.height*/,
                                                          dataSource: self,
                                                          delegate: self)
         if #available(iOS 10.0, *) {

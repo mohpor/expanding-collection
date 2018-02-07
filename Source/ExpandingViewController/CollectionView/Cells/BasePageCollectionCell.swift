@@ -168,8 +168,8 @@ extension BasePageCollectionCell {
             $0.layer.masksToBounds = false
             if dropShadow {
                 $0.layer.shadowColor = UIColor.black.cgColor
-                $0.layer.shadowRadius = 10
-                $0.layer.shadowOpacity = 0.3
+                $0.layer.shadowRadius = 15
+                $0.layer.shadowOpacity = 0.2
                 $0.layer.shadowOffset = CGSize(width: 0, height: 0)
             }
         }
